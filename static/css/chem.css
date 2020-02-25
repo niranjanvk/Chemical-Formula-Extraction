@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	  font-family: Comic Sans MS;
+}
+.R{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("static/img/2.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+}
+
+.btn{
+	border:1px solid blue;
+	color: white;
+	text-decoration: none;
+	padding: 7px 10px;
+	margin-top: 50px;
+	border-radius: 12px;
+	margin-right:20px;
+	
+}
+.btn1{
+	border:1px solid blue;
+	color: white;
+	text-decoration: none;
+	padding: 7px 10px;
+	
+	border-radius: 12px;
+	margin-right:20px;
+	
+}
+.button{
+	background-color: darkblue;
+}
+.B{
+	margin-top:40px;
+}
+.btn1:hover{
+	background-color: black;
+	transition: all 0.3s ease-in;
+}

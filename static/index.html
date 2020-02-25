@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PYTHON PROJECT</title>
+	
+	<link href="static\css\bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="static\css\bootstrap.min.css" rel="stylesheet" type="text/css">
+	   <link href="static\css\chem.css" rel="stylesheet" type="text/css">
+	   <link href="static\img\2.jpg" rel="stylesheet" type="text/css">
+</head>
+<body background="static/img/2.jpg">
+	<script type="text/javascript">
+				function showDiv() {
+   document.getElementById('welcomeDiv').style.display="block";
+}
+	</script>
+	<header>
+		     <h1 class="text-center">CHEMICAL INFORMATION EXTRACTION</h1>
+		     	<div class="B text-center">	
+		     		<input  class="btn btn1 button" type="button" name="answer" value="HOME" onclick="showDiv()" />
+				  <div id="welcomeDiv" style="display:none;" class="answer_list"><h1><br>WELCOME<br>
+				  	<form action="form2" method="POST" class="h2 btn btn1 button"  enctype = "multipart/form-data">
+ 				 	Select a file for chemical compound: <input type="file" accept=".pdf" name="rawtext" class="h2 btn btn1 button"><br>
+  					<button class="h2 btn btn1 button" type="submit">CHEMICAL compound</button>
+					</form>
+                     <form action="form1" method="POST" class="h2 btn btn1 button"  enctype = "multipart/form-data">
+ 				 	Select a file for chemical equations: <input type="file" accept=".docx" name="rawtext" class="h2 btn btn1 button"><br>
+  					<button class="h2 btn btn1 button" type="submit">CHEMICAL EQUATION</button>
+					</form>
+
+				</div>
+		     	  <a href="static\about1.html" class="btn btn1 button" type="button">ABOUT ME</a>
+		     	  <a href="static\about1.html" class="btn btn1 button" type="button">Hide</a>
+		     	  <a href="https://pdf2docx.com/" class="btn btn1 button" type="button">Conversion</a>
+		     	</div>	
+
+     	 <table>
+    
+{%  for key,values in final_summary %}
+   <tr>
+        <th> <font color="white">{{ key }} </font></th>
+        <td> <font color="white">{{ final_summary[key] }} </font></td>
+   </tr>
+{% endfor %}
+</table>        
+
+
+<table>
+    
+{%  for key in final_summary1 %}
+   <tr>
+        <th> <font color="white">{{ key }} </font></th>
+   </tr>
+{% endfor %}
+</table>
+</header>
+</body>
+</html>
