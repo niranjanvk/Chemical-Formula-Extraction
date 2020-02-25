@@ -22,7 +22,7 @@ From a chemistry related documents all Chemical Formulae and Chemical Equations 
  
  
  Thanks to My Team-
- Yugansh Arora
- Harsh Bhadoria
- V. Uma Mahesh
+ Yugansh Arora,
+ Harsh Bhadoria,
+ V. Uma Mahesh,
  M. Venkatesh
