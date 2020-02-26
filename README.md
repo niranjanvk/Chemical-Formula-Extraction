@@ -1,4 +1,4 @@
-# Chemical-Formula-Extraction
+# Chemical-Formula-Extraction(Python)
 From a chemistry related documents all Chemical Formulae and Chemical Equations present in documents can be Extracted by using this project. This whole project is devided into two parts
 1. Chemical Formula Extraction
 2. Chemical Equation Extraction
